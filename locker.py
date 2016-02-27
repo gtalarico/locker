@@ -1,10 +1,9 @@
 class Locker(object):
 
     def __init__(self, capacity):
-        print 'Locker Initialized.'
-        self.chambers = []
+        print('Locker Initialized.')
         self.chambers = [Chamber(n) for n in range(capacity)]
-        print 'Locker Created: ', self
+        print('Locker Created: ', self)
 
     @property
     def available_chambers(self):
@@ -42,7 +41,7 @@ class Chamber(object):
     def __init__(self, uid):
         self.uid = uid
         self.user = None
-        print 'Chamber Initialized: ', self
+        print('Chamber Initialized: ', self)
 
     @property
     def occupied(self):
@@ -54,11 +53,11 @@ class Chamber(object):
 
     def reserve(self, user):
         self.user = user
-        print 'Chamber Reserved: ', self
+        print('Chamber Reserved: ', self)
 
     def release(self):
         self.user = None
-        print 'Chamber Released: ', self
+        print('Chamber Released: ', self)
 
     def __repr__(self):
         return '<CHAMBER {}:{}>:{}'.format(self.uid, self.occupied,
@@ -69,7 +68,7 @@ class User(object):
 
     def __init__(self, pin):
         self.pin = pin
-        print 'User Created: ', self
+        print('User Created: ', self)
 
     def __repr__(self):
         return '<USER PIN: {}>'.format(self.pin)
@@ -88,5 +87,5 @@ while True:
         if chamber:
             chamber.reserve(User(pin))
         else:
-            print 'Chambers Full. Wait for relase.'
-    print 'New Status: ', locker
+            print('Chambers Full. Wait for relase.')
+    print('New Status: ', locker)
