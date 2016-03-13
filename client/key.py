@@ -62,7 +62,10 @@ def get_pin(length):
 
         print 'PIN: ', pin
         pi_cleanup()
-        return pin
+        # pin is list of ints [1,2,3] etc. Convert to string '123'
+        pin = [str(i) for i in pin]
+        str_pin = ''.join(pin)
+        return str_pin
 
 
     except KeyboardInterrupt:
