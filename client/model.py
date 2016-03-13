@@ -5,8 +5,10 @@ from peewee import OperationalError, IntegrityError
 from playhouse.hybrid import hybrid_property
 
 from datetime import datetime
+import os
 
-db = SqliteDatabase('locker.db')
+path = os.path.dirname(__file__)
+db = SqliteDatabase(os.path.join(path,'locker.db'))
 db.connect()
 
 class BaseModel(Model):
@@ -20,6 +22,11 @@ class User(BaseModel):
     def __repr__(self):
         return '<USER> PIN:{}'.format(self.pin)
 
+    @db.atomic()
+    def set_active(self, status):
+        self.active = status
+        self.save()
+
     @staticmethod
     @db.atomic()
     def create_user(pin):
@@ -27,6 +34,8 @@ class User(BaseModel):
         if was_created:
             user.save()
         return user
+
+
 
 
 class Chamber(BaseModel):
@@ -43,51 +52,55 @@ class Chamber(BaseModel):
         return not self.occupied
 
     def reserve(self, user):
-        user.active = True
-        user.save()
+        user.set_active(True)
         self.user = user
         self.status = 'reserved'
         self.save()
 
         print('Chamber Reserved: ', self)
+        op = Operation.add_operation(chamber=self, user=user,
+                                     action='reserved')
 
     def release(self):
-        self.user.active = False
-        self.user.save()
+        self.user.set_active(False)
         self.user = None
         self.status = 'available'
         self.save()
 
         print('Chamber Released: ', self)
+        op = Operation.add_operation(chamber=self, action='released')
 
     def __repr__(self):
         return '<CHAMBER {}:{}>:{}:{}'.format(self.chamber_id, self.occupied,
-                                           self.status, self.user )
+                                              self.status, self.user )
+
     @staticmethod
     @db.atomic()
     def get_or_create_chamber(chamber_id):
         chamber, was_created = Chamber.get_or_create(chamber_id=chamber_id)
-        if was_created: chamber.save()
+        if was_created:
+            chamber.save()
         return chamber
 
 
 class Operation(BaseModel):
-    timestamp = DateTimeField(primary_key=True, default=datetime.utcnow())
-    user = ForeignKeyField(User, related_name="operations")
-    chamber = ForeignKeyField(Chamber, related_name='chamber')
+    timestamp = DateTimeField(primary_key=True)
+    user = ForeignKeyField(User, related_name="operations", null=True)
+    chamber = ForeignKeyField(Chamber, related_name='chamber', null=True)
     action = CharField(null=True)
     locker = CharField(default='Dev Locker')
 
     def __repr__(self):
         return '<TRANSACTION> {}'.format(self.timestamp)
 
-@db.atomic()
-def add_operation(chamber, action, user):
-    now = datetime.utcnow()
-    op = Operation.create(timestamp=now, chamber=chamber,
-                          action=action, user=user)
-    op.save()
-    return op
+    @staticmethod
+    @db.atomic()
+    def add_operation(chamber=None, action=None, user=None):
+        now = datetime.utcnow()
+        op = Operation.create(timestamp=now, chamber=chamber,
+                              action=action, user=user)
+        op.save()
+        return op
 
 # this creates indexes, not sure why
 tables = [User, Operation, Chamber]

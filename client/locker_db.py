@@ -1,6 +1,14 @@
 import model
 from model import Operation, User, Chamber
-from key import get_pin
+
+try:
+    from key import get_pin
+except ImportError:
+    pi_present = False
+else:
+    pi_present = True
+
+NUM_CHAMBERS = 4
 
 class Locker(object):
 
@@ -39,15 +47,18 @@ class Locker(object):
         return '<LOCKER: {} of {} Available>:'.format(self.count_available(),
                                                       len(self))
 
-locker = Locker(10)
+locker = Locker(NUM_CHAMBERS)
 
 if __name__ == '__main__':
 
     # Start locker
     while True:
 
-        # pin = raw_input('Locker Idle. Enter Unique PIN:')
-        pin = get_pin(4)
+        if pi_present:
+            pin = get_pin(4)
+        else:
+            pin = raw_input('Locker Idle. Enter Unique PIN:')
+
         chamber = locker.find_chamber_by_pin(pin)
 
         if chamber:

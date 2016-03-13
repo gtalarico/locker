@@ -4,7 +4,6 @@
 # BCM
 # Keypad 1x4
 
-
 import RPi.GPIO as rpi
 import time
 
