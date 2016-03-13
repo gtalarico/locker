@@ -39,7 +39,7 @@ class Locker(object):
         return '<LOCKER: {} of {} Available>:'.format(self.count_available(),
                                                       len(self))
 
-locker = Locker(4)
+locker = Locker(10)
 
 if __name__ == '__main__':
 
