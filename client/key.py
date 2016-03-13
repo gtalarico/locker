@@ -18,6 +18,9 @@ def pi_init():
     for n, port in enumerate(ports):
         rpi.setup(port, rpi.IN, pull_up_down=rpi.PUD_DOWN)
 
+    rpi.setup(5, rpi.OUT)
+
+
 def pi_cleanup():
     rpi.cleanup()
 
@@ -25,8 +28,6 @@ def get_keypress():
     for n, port in enumerate(ports):
         if rpi.input(port):
             return n + 1
-
-rpi.setup(5, rpi.OUT)
 
 def blink_up():
     rpi.output(5, 1)
