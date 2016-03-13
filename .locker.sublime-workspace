@@ -1,0 +1,1723 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"For",
+				"ForeignKeyField	class"
+			],
+			[
+				"c",
+				"create_tables	function"
+			],
+			[
+				"cre",
+				"create_table	function"
+			],
+			[
+				"ch",
+				"chambers	statement"
+			],
+			[
+				"get",
+				"get_available_chamber	function"
+			],
+			[
+				"cham",
+				"chamber	forstmt"
+			],
+			[
+				"class",
+				"class	New Class"
+			],
+			[
+				"Remi",
+				"ReminderForm	class"
+			],
+			[
+				"status_un",
+				"status_unexpected"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"TextField	class"
+			],
+			[
+				"context",
+				"context	get_context_data"
+			],
+			[
+				"Venu",
+				"VenueAdmin	class"
+			],
+			[
+				"Mod",
+				"ModelAdmin	class"
+			],
+			[
+				"Clien",
+				"ClientDetailAdmin	class"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"is",
+				"is_online	statement"
+			],
+			[
+				"hou",
+				"hours_since	statement"
+			],
+			[
+				"uni",
+				"unicode	class"
+			],
+			[
+				"date",
+				"date_str"
+			],
+			[
+				"file",
+				"filepath	param"
+			],
+			[
+				"load",
+				"load_from_file	function"
+			],
+			[
+				"get_da",
+				"get_datetime_since	function"
+			],
+			[
+				"last_",
+				"last_opened	statement"
+			],
+			[
+				"conv",
+				"convert_to_utc"
+			],
+			[
+				"venue",
+				"venues"
+			],
+			[
+				"get_",
+				"get_json"
+			],
+			[
+				"last_fo",
+				"last_four"
+			],
+			[
+				"timest",
+				"time_string"
+			],
+			[
+				"aw",
+				"aware_datetime"
+			],
+			[
+				"DEFAULT_",
+				"DEFAULT_TZ"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"tz",
+				"tzinfo"
+			],
+			[
+				"pars",
+				"parsed_tz"
+			],
+			[
+				"parse",
+				"parse_time"
+			],
+			[
+				"naive_",
+				"naive_time	param"
+			],
+			[
+				"nai",
+				"naive_datetime	param"
+			],
+			[
+				"naive",
+				"naive_datetime"
+			],
+			[
+				"dict",
+				"dictConfig	function"
+			],
+			[
+				"logger",
+				"logger_config"
+			],
+			[
+				"LOGG",
+				"LOGGER_CONFIG"
+			],
+			[
+				"set",
+				"setLevel	function"
+			],
+			[
+				"logg",
+				"logging	module"
+			],
+			[
+				"log",
+				"logger_init	module"
+			],
+			[
+				"templ",
+				"template	module"
+			],
+			[
+				"Man",
+				"ManyToManyField	class"
+			],
+			[
+				"on",
+				"on_delete	param"
+			],
+			[
+				"pas",
+				"password_reset_done"
+			],
+			[
+				"pass",
+				"password_reset"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"port",
+				"portal"
+			],
+			[
+				"ex",
+				"executable	instance"
+			],
+			[
+				"ite",
+				"iteritems	function"
+			],
+			[
+				"group",
+				"group	function"
+			],
+			[
+				"TOK",
+				"TOKENS_GROUP_PAT	statement"
+			],
+			[
+				"TO",
+				"TOKENS_GROUP_PAT	statement"
+			],
+			[
+				"add",
+				"add_child"
+			],
+			[
+				"iter",
+				"iter_child"
+			],
+			[
+				"data",
+				"data_dict"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"yie",
+				"yields"
+			],
+			[
+				"pag",
+				"page_number_text"
+			],
+			[
+				"pd",
+				"pdf_page_number"
+			],
+			[
+				"PDF",
+				"PDF-PAGE"
+			],
+			[
+				"bas",
+				"bastard	statement"
+			],
+			[
+				"pri",
+				"print_pdf"
+			],
+			[
+				"prin",
+				"print_node	function"
+			],
+			[
+				"ig",
+				"IGNORECASE	statement"
+			],
+			[
+				"is_en",
+				"is_entry	statement"
+			],
+			[
+				"PA",
+				"PAGE_STR	statement"
+			],
+			[
+				"leve",
+				"level3"
+			],
+			[
+				"coer",
+				"coerce_data	function"
+			],
+			[
+				"d",
+				"d	statement"
+			],
+			[
+				"PHON",
+				"PHONE_START	statement"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"bast",
+				"bastard_lines_start	statement"
+			],
+			[
+				"Exc",
+				"Exception	class"
+			],
+			[
+				"TR",
+				"TRANSACTION_CATEGORIES_ALL	statement"
+			],
+			[
+				"PR",
+				"PREVIOUS_PERIOD	statement"
+			],
+			[
+				"get_ch",
+				"get_child_by_name	function"
+			],
+			[
+				"Pr",
+				"PRICE	statement"
+			],
+			[
+				"tr",
+				"TRANSACTION_LINE"
+			],
+			[
+				"last",
+				"last_added	statement"
+			],
+			[
+				"tra",
+				"TRANSACTION_CATEGORIES_ALL	statement"
+			],
+			[
+				"PH",
+				"PHONE_START	statement"
+			],
+			[
+				"las",
+				"last_level2_added	statement"
+			],
+			[
+				"CONT",
+				"CONTRACT_TYPE	statement"
+			],
+			[
+				"CON",
+				"CONTRACT_TYPE	statement"
+			],
+			[
+				"Or",
+				"OrderedDict	class"
+			],
+			[
+				"get_p",
+				"get_parent_name	function"
+			],
+			[
+				"no",
+				"node_json"
+			],
+			[
+				"Not",
+				"NotImplemented	instance"
+			],
+			[
+				"json",
+				"json_dict	function"
+			],
+			[
+				"J",
+				"reprJSON"
+			],
+			[
+				"it",
+				"iter_tree_down"
+			],
+			[
+				"key",
+				"keys	function"
+			],
+			[
+				"grou",
+				"group	function"
+			],
+			[
+				"PHO",
+				"PHONE	statement"
+			],
+			[
+				"page",
+				"page_marker_match	statement"
+			],
+			[
+				"SMS",
+				"SMS_START	statement"
+			],
+			[
+				"get__",
+				"get_last_child	function"
+			],
+			[
+				"get_l",
+				"get_last_child	function"
+			],
+			[
+				"SU",
+				"SUMMARY_START	statement"
+			],
+			[
+				"open",
+				"open_picle	function"
+			],
+			[
+				"ope",
+				"open_file	function"
+			],
+			[
+				"sms_s",
+				"sms_start_line	statement"
+			],
+			[
+				"pho",
+				"phone_section_line	forstmt"
+			],
+			[
+				"mt",
+				"match_id	statement"
+			],
+			[
+				"math",
+				"match_id	statement"
+			],
+			[
+				"mat",
+				"match_id	statement"
+			],
+			[
+				"ge_",
+				"get_level	function"
+			],
+			[
+				"phon",
+				"phone_section_line	forstmt"
+			],
+			[
+				"pr",
+				"print_node_data	function"
+			],
+			[
+				"ad",
+				"add_child"
+			],
+			[
+				"At",
+				"AttributeError	class"
+			],
+			[
+				"TRAN",
+				"TRANSACTION_LINE	statement"
+			],
+			[
+				"TRA",
+				"TRANSACTION_LINE	statement"
+			],
+			[
+				"chil",
+				"child3	statement"
+			],
+			[
+				"chi",
+				"child3	statement"
+			],
+			[
+				"iter_",
+				"iter_tree_up	function"
+			],
+			[
+				"p",
+				"parent	statement"
+			],
+			[
+				"s",
+				"siblings"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "model.py",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "locker_db.py",
+			"settings":
+			{
+				"buffer_size": 2282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Table already exis",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix",
+				"name": "Build output",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/terminal.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 146.0,
+		"last_filter": "terminal",
+		"selected_items":
+		[
+			[
+				"terminal",
+				"Build With: terminal"
+			],
+			[
+				"bui",
+				"Build With: terminal"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"build",
+				"Build With: terminal"
+			],
+			[
+				"curr",
+				"SublimeREPL: Python - PDB current file"
+			],
+			[
+				"curre",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"g: ",
+				"Goto: Line…"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"doc",
+				"Python Docstrings: Fold"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"goto",
+				"Goto: Definition…"
+			],
+			[
+				"doct",
+				"Python Docstrings: Fold"
+			],
+			[
+				"new snipt",
+				"New Snippet…"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"comment	",
+				"Toggle Block Comment"
+			],
+			[
+				"djang	",
+				"Snippet: Django template blocktrans"
+			],
+			[
+				"django",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"set syntax dj",
+				"Set Syntax: Python (Django)"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"fold",
+				"Code Folding: Fold"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold"
+			],
+			[
+				"git",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"virtu	",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"vir",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"virtu",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"virtual",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Logfile"
+			],
+			[
+				"set log",
+				"Set Syntax: Logfile"
+			],
+			[
+				"run cu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"current",
+				"SublimeREPL: Python - PDB current file"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"traceb",
+				"Traceback: Go To Line"
+			],
+			[
+				"traceback",
+				"Traceback: Go To Line"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"module",
+				"Set Syntax: Python module path"
+			],
+			[
+				"upp	",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"unfol",
+				"Code Folding: Unfold"
+			],
+			[
+				"fol",
+				"Fold Python : fold depth 1"
+			],
+			[
+				"synt",
+				"Set Syntax: Logfile"
+			],
+			[
+				"log",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"isntal",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"go to li",
+				"Goto: Line…"
+			],
+			[
+				"anac",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"anax",
+				"Anaconda: Next lint error"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Find object usage"
+			],
+			[
+				"vintage",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"gutter",
+				"View: Toggle Gutter"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"docs",
+				"Python Docstrings: Fold"
+			],
+			[
+				"jin",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"bang",
+				"Bang Search"
+			],
+			[
+				"index",
+				"Code Search Index"
+			],
+			[
+				"jinj",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"fold doc",
+				"Fold Python : show documentation"
+			],
+			[
+				"doc string",
+				"Python Docstrings: Fold"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"high vis",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"ji",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"inder",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"git ",
+				"Git: Graph All"
+			],
+			[
+				"terminali",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"terminality",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"termi",
+				"Preferences: Terminality Settings – Default"
+			],
+			[
+				"termina",
+				"Preferences: Terminality Key Bindings – Default"
+			],
+			[
+				"termin",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"lsit",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syntaxfold",
+				"Preferences: SyntaxFold Keybindings - Default"
+			]
+		],
+		"width": 381.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"gedit app.py",
+			"tetst",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nwf/dev/repos/locker"
+	],
+	"file_history":
+	[
+		"/home/nwf/dev/repos/dashboard-advisor/.dashboard.sublime-project",
+		"/home/nwf/dev/repos/dj_portal/sublime_dj_portal.sublime-project",
+		"/home/nwf/dev/repos/locker/.locker.sublime-project",
+		"/home/nwf/.config/sublime-text-3/Packages/User/terminal.sublime-build",
+		"/home/nwf/dev/repos/misc/locker/locker.py",
+		"/home/nwf/dev/repos/misc/locker.py",
+		"/home/nwf/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nwf/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/nwf/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/nwf/dev/repos/dashboard-advisor/lib/phone_bill/grammar.rb",
+		"/home/nwf/dev/repos/dashboard-advisor/log/parser.log",
+		"/home/nwf/dev/repos/dj_portal/forms.py",
+		"/home/nwf/dev/repos/dj_portal/portal/forms.py",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/accounts/logged_out.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/accounts/login.html~",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/helper.py",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/time_helper.py",
+		"/home/nwf/dev/repos/dj_portal/portal/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/fixtures.json",
+		"/home/nwf/dev/repos/dj_portal/fixtures2.json",
+		"/home/nwf/dev/repos/dj_portal/portal/urls.py",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/urls.py",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/base.html",
+		"/home/nwf/dev/repos/dj_portal/portal/admin.py",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/_menu_main.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/units.html",
+		"/home/nwf/dev/repos/dj_portal/portal/cron.py",
+		"/home/nwf/dev/repos/dj_portal/portal/static/css/main-theme.css",
+		"/home/nwf/dev/repos/dj_portal/portal/static/js/main.js",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/data/units.json",
+		"/usr/lib/python2.7/collections.py",
+		"/home/nwf/dev/repos/dj_portal/portal/static/tables/bootstrap-table.css",
+		"/home/nwf/dev/repos/dj_portal/portal/static/css/bootstrap.css",
+		"/home/nwf/dev/repos/dj_portal/portal/static/css/bootstrap-theme.css",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/base_panel.html",
+		"/home/nwf/dev/repos/dj_portal/portal/static/css/main.css",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/settings.py",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/tests.py",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/core.py",
+		"/home/nwf/dev/repos/portal_br/portal_app/static/css/main.css",
+		"/home/nwf/dev/repos/dj_portal/portal/tests.py",
+		"/home/nwf/dev/repos/dj_portal/portal/views.py",
+		"/home/nwf/dev/repos/dj_portal/portal/static/css/unit_table.css",
+		"/home/nwf/dev/repos/portal_br/portal_app/static/css/main-theme.css",
+		"/home/nwf/dev/repos/dj_portal/portal/static/js/bootstrap.js",
+		"/home/nwf/dev/.virtualenvs/dj_portal/local/lib/python2.7/site-packages/dateutil/parser.py",
+		"/home/nwf/dev/.virtualenvs/dj_portal/local/lib/python2.7/site-packages/dateutil/tz.py",
+		"/home/nwf/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/logger_config.py",
+		"/home/nwf/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/nwf/.config/sublime-text-3/Packages/User/Python Django.sublime-settings",
+		"/home/nwf/dev/repos/misc/logger_init.py",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/logger_config.json",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/logger_init.py",
+		"/home/nwf/dev/repos/dj_portal/portal/models.py",
+		"/home/nwf/dev/.virtualenvs/dj_portal/local/lib/python2.7/site-packages/django/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/portal/bb/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/todo.TODO",
+		"/home/nwf/Desktop/nyc.todo",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/portal.html",
+		"/home/nwf/dev/repos/dj_portal/portal/logger_init.py",
+		"/home/nwf/dev/repos/dashboard-advisor/.gitignore",
+		"/home/nwf/dev/repos/dashboard-advisor/app/assets/stylesheets/application.scss",
+		"/home/nwf/dev/repos/dashboard-advisor/app/views/devise/sessions/new.html.erb",
+		"/home/nwf/dev/repos/dashboard-advisor/app/views/home/index.html.erb",
+		"/home/nwf/dev/repos/dashboard-advisor/app/views/layouts/application.html.erb",
+		"/home/nwf/dev/repos/portal_br/portal_app/views.py",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/_alerts.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/accounts/login.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/accounts/_footer.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/old temps/_menu_main.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/base.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/password_reset_form.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/accounts/stock/logout.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/password_change_done.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/_menu.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/logged_out.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/login.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/old temps/_alerts.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/old temps/_macros_main.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/_registration_menu.html",
+		"/home/nwf/dev/repos/dj_portal/portal/templates/registration/login_user.html",
+		"/home/nwf/dev/.virtualenvs/dj_portal/local/lib/python2.7/site-packages/django/http/response.py",
+		"/home/nwf/dev/.virtualenvs/dj_portal/local/lib/python2.7/site-packages/django/conf/urls/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/units/models.py",
+		"/home/nwf/dev/repos/dj_portal/units/admin.py",
+		"/home/nwf/dev/repos/dj_portal/portal/apps.py",
+		"/home/nwf/dev/repos/dj_portal/fixtures-units.json",
+		"/home/nwf/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/nwf/.config/sublime-text-3/Packages/Python Open Module (New)/Python Open Module (New).sublime-settings",
+		"/home/nwf/dev/repos/dj_portal/units/views.py",
+		"/home/nwf/dev/repos/dj_portal/units/urls.py",
+		"/home/nwf/dev/repos/dj_portal/portal/migrations/0002_auto_20160118_1104.py",
+		"/home/nwf/dev/repos/dj_portal/fixture.json",
+		"/home/nwf/dev/repos/dj_portal/units/apps.py",
+		"/home/nwf/dev/repos/dj_portal/units/__init__.py",
+		"/home/nwf/dev/.virtualenvs/dj_portal/lib/python2.7/site-packages/django/conf/__init__.py",
+		"/home/nwf/dev/repos/dj_portal/dj_portal/wsgi.py",
+		"/home/nwf/dev/repos/pdf-parser/search-nodes.py",
+		"/home/nwf/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/home/nwf/.config/sublime-text-3/Packages/SublimeREPL/lang_integration.py",
+		"/home/nwf/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Default.sublime-commands",
+		"/home/nwf/.config/sublime-text-3/Packages/SublimeREPL/sublimerepl.py",
+		"/home/nwf/dev/repos/pdf-parser/pdfplay.sublime-project",
+		"/home/nwf/.config/sublime-text-3/Packages/User/Python Open Module (New).sublime-settings",
+		"/home/nwf/dev/.virtualenvs/pdf-parser/lib/python2.7/re.py",
+		"/home/nwf/dev/repos/pdf-parser/node.py",
+		"/home/nwf/dev/repos/pdf-parser/csv2",
+		"/home/nwf/dev/repos/pdf-parser/text_parser.py",
+		"/home/nwf/dev/repos/pdf-parser/vivotext2.txt",
+		"/usr/lib/python2.7/pickle.py",
+		"/home/nwf/dev/repos/pdf-parser/csv",
+		"/home/nwf/dev/repos/pdf-parser/search.py",
+		"/home/nwf/dev/repos/pdf-parser/delete-csv-test.csv",
+		"/home/nwf/dev/repos/pdf-parser/clarotext2.txt",
+		"/home/nwf/dev/repos/pdf-parser/cacheclaro.p",
+		"/home/nwf/dev/repos/d3htmltest.html",
+		"/home/nwf/dev/repos/treeData.json",
+		"/home/nwf/dev/repos/pdf-parser/jsonserializer.py",
+		"/home/nwf/dev/repos/pdf-parser/dict-class.py",
+		"/home/nwf/dev/repos/pdf-parser/pdf_to_txt.py",
+		"/home/nwf/dev/repos/pdf-parser/cachevivo.p",
+		"/home/nwf/dev/repos/pdf-parser/pic.py",
+		"/home/nwf/dev/repos/pdf-parser/p",
+		"/home/nwf/dev/repos/pdf-parser/python",
+		"/home/nwf/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+		"/home/nwf/dev/repos/pdf-parser/TODO.todo"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":",
+			"print",
+			":\n",
+			"chambers.values()",
+			"first_available_chamber",
+			"get_chamber_by_pin",
+			"True",
+			"()",
+			" label",
+			"label",
+			"form-gro",
+			"form-group ",
+			"form-gro",
+			"label",
+			"form-gr",
+			"migrat",
+			"sess",
+			"conte",
+			",\n",
+			"ap",
+			"label",
+			"content",
+			"logg",
+			"status_unexpected",
+			"icon",
+			"is-",
+			"get_js",
+			"json",
+			"online",
+			"info",
+			"print",
+			"get_dict",
+			"ged_dict",
+			"unit_id",
+			"id",
+			"get_j",
+			"json",
+			"last_",
+			"Rio Design Leblon",
+			"sys",
+			"logger",
+			"warni",
+			"acti",
+			"active",
+			"update",
+			"updated",
+			"update",
+			"dump",
+			".chamber",
+			"chamb",
+			"last_ope",
+			"3058",
+			"Chamber(",
+			"Chamber()",
+			"null",
+			"last_",
+			"        ",
+			"\n    ",
+			"last_fo",
+			"last_fo	",
+			"chamb",
+			"p_software_version",
+			"comme",
+			"updated",
+			"total",
+			"temp",
+			"total_units",
+			"total",
+			"keys",
+			"door_st",
+			"statu",
+			"prett",
+			"int(",
+			".id",
+			"hours_since_checkin",
+			"unit",
+			"error",
+			"def tzname",
+			"tzname",
+			")\n",
+			"04:00",
+			"est",
+			"()):\n",
+			"true",
+			"django",
+			"true",
+			"config",
+			"true",
+			"with",
+			"set",
+			"ret",
+			"open ",
+			"could",
+			"error",
+			"alert",
+			"info",
+			"auth_",
+			"django.contrib.auth",
+			"auth_views",
+			"registration",
+			"label",
+			"form-control",
+			"form",
+			">\n",
+			"menu",
+			"main",
+			"recife",
+			"app_l",
+			"content_",
+			"app_",
+			"units",
+			"unit_id",
+			"impor",
+			"repl_open",
+			"run",
+			"python_virtualenv_paths",
+			"TOKENS_GROUP_PAT",
+			"-",
+			"DICT",
+			"dict",
+			"DICT",
+			"TOKENS_GROUP_PAT",
+			"subt",
+			"subto",
+			"subt",
+			"data_d",
+			"undef",
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"chambers",
+			"chamers",
+			"find_available_chamber",
+			"find_chamber_by_pin",
+			"psoftware_version",
+			".unit_id",
+			"unit_id",
+			"hours_since",
+			"True",
+			"",
+			"auth",
+			"django.contrib.auth",
+			"accounts",
+			"portal",
+			"}}",
+			"{{",
+			"",
+			"last_level1_added",
+			"root",
+			"",
+			"op",
+			"results",
+			"TOKENS_JOINED",
+			"get_siblings",
+			"iter_tree_down",
+			"new_child",
+			"print_node",
+			"print_tree",
+			"phone_start_match",
+			"phone_start",
+			"operator",
+			"page_number_text",
+			"pdf_page_number",
+			"search_match",
+			"\"Open Sans\"",
+			"35B59A",
+			"print_pretty_json_data",
+			"<td",
+			"iso_timestamp_delta",
+			"portal_app",
+			"h3",
+			"filepath",
+			"items",
+			"UNITS_JSON_URL",
+			"self.s",
+			"g.user",
+			"uid",
+			"1786AA",
+			"app.logger",
+			"col-sm-9",
+			"col-sm-3",
+			"\"",
+			"BABABA",
+			"999999",
+			"1F2F4A",
+			"263957",
+			"1F2F4A",
+			"263957",
+			"0E254F",
+			"1C3D7A",
+			"1D446E",
+			"193059",
+			"E268CD",
+			"3C3C3C",
+			"static"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "model.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "locker_db.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1885,
+								1885
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.612021857924,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 201.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".locker.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"admin",
+				"portal_app/templates/admin/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/repos/portal_br/portal_br.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 56.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 78.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
