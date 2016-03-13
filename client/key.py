@@ -8,13 +8,15 @@
 import RPi.GPIO as rpi
 import time
 
+#setup
+ports = [21,22,23,24]
+
 def pi_init():
     rpi.setmode(rpi.BCM)
     #rpi.setmode(rpi.BOARD)
 
     print 'rpi Ready'
 
-    ports = [21,22,23,24]
     for n, port in enumerate(ports):
         rpi.setup(port, rpi.IN, pull_up_down=rpi.PUD_DOWN)
 
@@ -58,7 +60,7 @@ def get_pin(length):
             pin.append(get_digit())
             print pin
 
-        print 'PIN: ', PIN
+        print 'PIN: ', pin
         pi_cleanup()
         return pin
 

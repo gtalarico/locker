@@ -46,7 +46,8 @@ if __name__ == '__main__':
     # Start locker
     while True:
 
-        pin = raw_input('Locker Idle. Enter Unique PIN:')
+        # pin = raw_input('Locker Idle. Enter Unique PIN:')
+        pin = get_pin(4)
         chamber = locker.find_chamber_by_pin(pin)
 
         if chamber:
