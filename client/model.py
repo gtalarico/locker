@@ -48,6 +48,7 @@ class Chamber(BaseModel):
         self.user = user
         self.status = 'reserved'
         self.save()
+
         print('Chamber Reserved: ', self)
 
     def release(self):
@@ -56,6 +57,7 @@ class Chamber(BaseModel):
         self.user = None
         self.status = 'available'
         self.save()
+
         print('Chamber Released: ', self)
 
     def __repr__(self):
@@ -90,15 +92,6 @@ def add_operation(chamber, action, user):
 # this creates indexes, not sure why
 tables = [User, Operation, Chamber]
 db.create_tables(tables, True)
-# Helper
-# def create_tables_if_needed():
-    # for table in tables:
-        # try:
-            # db.create_table(table)
-            # print '{} table created'.format(table)
-        # except OperationalError:
-            # print '{} table already exists'.format(table)
-# create_tables_if_needed()
 
 # ERASE TABLES
 def drop_tables():

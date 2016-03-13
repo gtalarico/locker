@@ -1,5 +1,6 @@
 import model
 from model import Operation, User, Chamber
+from key import get_pin
 
 class Locker(object):
 
