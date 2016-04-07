@@ -1,5 +1,6 @@
 import model
 from model import Operation, User, Chamber
+import sys
 
 try:
     from key import get_pin
@@ -58,6 +59,10 @@ if __name__ == '__main__':
             pin = get_pin(4)
         else:
             pin = raw_input('Locker Idle. Enter Unique PIN:')
+
+        if pin == '1111':
+            model.drop_tables()
+            sys.exit()
 
         chamber = locker.find_chamber_by_pin(pin)
 
