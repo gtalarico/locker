@@ -1,4 +1,4 @@
-## Python Locker
+## Virtual Python Locker
 
 A simple locker controller application.
 
