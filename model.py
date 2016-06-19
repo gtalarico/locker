@@ -7,8 +7,10 @@ from playhouse.hybrid import hybrid_property
 from datetime import datetime
 import os
 
+SQLITE_DB_NAME = 'sqlite.db'
+
 path = os.path.dirname(__file__)
-db = SqliteDatabase(os.path.join(path,'locker.db'))
+db = SqliteDatabase(os.path.join(path, SQLITE_DB_NAME))
 db.connect()
 
 class BaseModel(Model):
@@ -34,8 +36,6 @@ class User(BaseModel):
         if was_created:
             user.save()
         return user
-
-
 
 
 class Chamber(BaseModel):
@@ -72,7 +72,7 @@ class Chamber(BaseModel):
 
     def __repr__(self):
         return '<CHAMBER {}:{}>:{}:{}'.format(self.chamber_id, self.occupied,
-                                              self.status, self.user )
+                                              self.status, self.user)
 
     @staticmethod
     @db.atomic()
@@ -105,6 +105,7 @@ class Operation(BaseModel):
 # this creates indexes, not sure why
 tables = [User, Operation, Chamber]
 db.create_tables(tables, True)
+
 
 # ERASE TABLES
 def drop_tables():

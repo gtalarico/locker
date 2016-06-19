@@ -3,7 +3,7 @@ from model import Operation, User, Chamber
 import sys
 
 try:
-    from key import get_pin
+    from getrpikey import get_pin
 except ImportError:
     pi_present = False
 else:
