@@ -2,18 +2,25 @@
 
 A simple locker controller application.
 
-The idea is too simulate a real work locker, where access is granted (open and release) after a unique PIN is entered. The PIN could be entered through any interface, and could represent a unique MAG strip data, NFC chip, Fingerprint, or simple keypad pin.
+The idea is too simulate a real work locker, where access is granted (open + release) after a unique PIN is entered.
 
-The current application check if it can talk with a raspberry pi to get a PIN from a keyboard. If it fails, it falls back to the hosts' keyboard for tests.
+The unique PIN could be created manually through a keypad, or through an interface such as
+a MAG strip reader, NFC reader, Fingerprint, etc.
 
-### Use
+The current application checks if it can talk with a Raspberry Pi, and wait for a signal from Raspberry PI's RPio.
+If it fails, it falls back to the host's keyboard for user input.
+
+
+[Peewee](http://docs.peewee-orm.com/) was used as an ORM to simplify relantionship with SQLite database.
+
+
+#### Use
 
 > python locker.py
 
-* Enter a Unique PIN.
-* a virtual locker is reserved.
-* Enter a new PIN.
-* If it matches one of the current lockers, it releases
-* If it does not match, a new locker is reserved.
-
-* Type pin 1111 to clear all lockers
+1. Enter a Unique PIN.
+2. A virtual locker is reserved.
+3. Enter a new unique PIN.
+4. If it matches one of the current lockers, it releases.
+5. If it does not match, a new locker is reserved under the new pin.
+6. Type pin 1111 to clear all lockers
